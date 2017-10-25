@@ -96,15 +96,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    text-align: center;
+}
 
+.containerLettre{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lettre{
+    border-bottom: 1px solid black;
+    margin: 3px;
+}
 
+#bouton{
+    justify-content: center;
+    display: flex;
+}
 
-
-
-
-
-
-
+.BoutonFont{
+    font-family: 'Concert One', cursive;
+    margin: 10px;
+}
 
 
 
