@@ -102,17 +102,22 @@ h1{
 }
 h2{
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 50px;
 }
 
 .containerLettre{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
 }
 .lettre{
+    font-family: 'Vast Shadow', cursive;
     border-bottom: 1px solid black;
     margin: 3px;
+    width: 15px;
 }
 
 #bouton{
@@ -121,14 +126,20 @@ h2{
 }
 
 .BoutonFont{
+    width: 100px;
     font-family: 'Concert One', cursive;
     margin: 10px;
 }
 
+.form{
+    margin-bottom: 25px;
+    justify-content: center;
+    display: flex;
+}
 
-
-
-
+.containerBoutonLettre{
+    margin-bottom: 25px;
+}
 
 
 

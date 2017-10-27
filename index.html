@@ -3,14 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>D35 CH1FFR35 3T D35 L3TTR35</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Concert+One|Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One|Press+Start+2P|Vast+Shadow" rel="stylesheet">
         <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -29,24 +27,37 @@
             <h2>Le mot le plus long</h2>
          </div>
 
-        <div class="containerLettre">
-            <div class="lettre">A</div>
-            <div class="lettre">Z</div>
-            <div class="lettre">E</div>
-            <div class="lettre">R</div>
-            <div class="lettre">T</div>
-            <div class="lettre">Y</div>
-            <div class="lettre">U</div>
-            <div class="lettre">I</div>
-            <div class="lettre">O</div>
-        </div>
+        <!---ESPACE LETTRE--->
 
-        <div class="container">
+        <div class="containerLettre">
+            <div class="lettre" id="lettre1">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre2">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre3">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre4">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre5">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre6">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre7">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre8">&nbsp&nbsp</div>
+            <div class="lettre" id="lettre9">&nbsp&nbsp</div>
+        </div>
+        <div id="result"></div>
+
+        <!---GENERATION DE LETTRE ALEATOIRE--->
+
+        <div class="containerBoutonLettre">
             <div id="bouton">
-            <button class="BoutonFont">Voyelle</button>
-            <button class="BoutonFont">Consonne</button>
+            <button class="BoutonFont" id="Voyelle">Voyelle</button>
+            <button class="BoutonFont" id="Consonne">Consonne</button>
             </div>
         </div>
+
+        <!---BOUTON RESTART--->
+
+        <div class="form">
+            <button class="BoutonFont" id="Restart">Restart</button>
+        </div>
+
+
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
